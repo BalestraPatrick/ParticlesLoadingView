@@ -1,0 +1,6 @@
+framework module ParticlesLoadingView {
+  umbrella header "ParticlesLoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4CA89A1CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4CA8991CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework */; };
+		AE4CA89B1CEC67D00074E71F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBB69BF1CEC6303001DB4CA /* LaunchScreen.xib */; };
+		AE4CA89C1CEC67D00074E71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBB69C11CEC6303001DB4CA /* Main.storyboard */; };
+		AEBB69B91CEC62E0001DB4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB69B81CEC62E0001DB4CA /* ViewController.swift */; };
+		AEBB69BB1CEC62E6001DB4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB69BA1CEC62E6001DB4CA /* AppDelegate.swift */; };
+		AEBB69BD1CEC62EE001DB4CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBB69BC1CEC62EE001DB4CA /* Images.xcassets */; };
+		AEBB69C91CEC631A001DB4CA /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = AEBB69C71CEC631A001DB4CA /* spark.png */; };
+		AEBB69CA1CEC631A001DB4CA /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEBB69C81CEC631A001DB4CA /* Spark.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21B343C7A3ABA308245341FE /* Pods_ParticlesLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParticlesLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD7656126E9444058834846 /* ParticlesLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ParticlesLoadingView.podspec; path = ../ParticlesLoadingView.podspec; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* ParticlesLoadingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticlesLoadingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D546345799EF75596848339 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AE4CA8971CEC66C30074E71F /* ParticlesLoadingView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParticlesLoadingView.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/ParticlesLoadingView-akklrpifjkmgthbtqzwmwbejisek/Build/Products/Debug-iphonesimulator/ParticlesLoadingView/ParticlesLoadingView.framework"; sourceTree = "<group>"; };
+		AE4CA8991CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_ParticlesLoadingView_Example.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/ParticlesLoadingView-akklrpifjkmgthbtqzwmwbejisek/Build/Products/Debug-iphonesimulator/Pods_ParticlesLoadingView_Example.framework"; sourceTree = "<group>"; };
+		AEBB69B81CEC62E0001DB4CA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ParticlesLoadingView/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		AEBB69BA1CEC62E6001DB4CA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ParticlesLoadingView/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		AEBB69BC1CEC62EE001DB4CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ParticlesLoadingView/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		AEBB69C01CEC6303001DB4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ParticlesLoadingView/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		AEBB69C21CEC6303001DB4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ParticlesLoadingView/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		AEBB69C51CEC6309001DB4CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParticlesLoadingView/Info.plist; sourceTree = SOURCE_ROOT; };
+		AEBB69C71CEC631A001DB4CA /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ParticlesLoadingView/spark.png; sourceTree = SOURCE_ROOT; };
+		AEBB69C81CEC631A001DB4CA /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Spark.sks; path = ParticlesLoadingView/Spark.sks; sourceTree = SOURCE_ROOT; };
+		C5E7D085E922F5AF8C412415 /* Pods-ParticlesLoadingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParticlesLoadingView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParticlesLoadingView_Example/Pods-ParticlesLoadingView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E4ACA28BC23E0E62601E63C9 /* Pods-ParticlesLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParticlesLoadingView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParticlesLoadingView_Example/Pods-ParticlesLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD6432433FF0004DC4D78A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4CA89A1CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		395C9A2AE012B9CBB94D3A41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE4CA8991CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework */,
+				AE4CA8971CEC66C30074E71F /* ParticlesLoadingView.framework */,
+				21B343C7A3ABA308245341FE /* Pods_ParticlesLoadingView_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for ParticlesLoadingView */,
+				607FACD11AFB9204008FA782 /* Products */,
+				B5B485C8D58CCD6520F3F482 /* Pods */,
+				395C9A2AE012B9CBB94D3A41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* ParticlesLoadingView_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for ParticlesLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				AEC42C2A1C5CEA4D0008444D /* Sprites */,
+				AEBB69BA1CEC62E6001DB4CA /* AppDelegate.swift */,
+				AEBB69B81CEC62E0001DB4CA /* ViewController.swift */,
+				AEBB69BC1CEC62EE001DB4CA /* Images.xcassets */,
+				AEBB69BF1CEC6303001DB4CA /* LaunchScreen.xib */,
+				AEBB69C11CEC6303001DB4CA /* Main.storyboard */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for ParticlesLoadingView";
+			path = ParticlesLoadingButton;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEBB69C51CEC6309001DB4CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				2DD7656126E9444058834846 /* ParticlesLoadingView.podspec */,
+				FBD6432433FF0004DC4D78A7 /* README.md */,
+				6D546345799EF75596848339 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AEC42C2A1C5CEA4D0008444D /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				AEBB69C71CEC631A001DB4CA /* spark.png */,
+				AEBB69C81CEC631A001DB4CA /* Spark.sks */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		B5B485C8D58CCD6520F3F482 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4ACA28BC23E0E62601E63C9 /* Pods-ParticlesLoadingView_Example.debug.xcconfig */,
+				C5E7D085E922F5AF8C412415 /* Pods-ParticlesLoadingView_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* ParticlesLoadingView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ParticlesLoadingView_Example" */;
+			buildPhases = (
+				9AEB082AFDBFD2EFA3A25735 /* 📦 Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				287598FE1BDED1268CB4F793 /* 📦 Embed Pods Frameworks */,
+				9D95533FC0DECD35C9DC5C3B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticlesLoadingView_Example;
+			productName = ParticlesLoadingButton;
+			productReference = 607FACD01AFB9204008FA782 /* ParticlesLoadingView_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ParticlesLoadingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* ParticlesLoadingView_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4CA89B1CEC67D00074E71F /* LaunchScreen.xib in Resources */,
+				AE4CA89C1CEC67D00074E71F /* Main.storyboard in Resources */,
+				AEBB69CA1CEC631A001DB4CA /* Spark.sks in Resources */,
+				AEBB69C91CEC631A001DB4CA /* spark.png in Resources */,
+				AEBB69BD1CEC62EE001DB4CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		287598FE1BDED1268CB4F793 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParticlesLoadingView_Example/Pods-ParticlesLoadingView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEB082AFDBFD2EFA3A25735 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D95533FC0DECD35C9DC5C3B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParticlesLoadingView_Example/Pods-ParticlesLoadingView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBB69BB1CEC62E6001DB4CA /* AppDelegate.swift in Sources */,
+				AEBB69B91CEC62E0001DB4CA /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEBB69BF1CEC6303001DB4CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBB69C01CEC6303001DB4CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		AEBB69C11CEC6303001DB4CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBB69C21CEC6303001DB4CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4ACA28BC23E0E62601E63C9 /* Pods-ParticlesLoadingView_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticlesLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/ParticlesLoadingView.framework/Headers\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ParticlesLoadingView\"",
+				);
+				PODS_FRAMEWORK_BUILD_PATH = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ParticlesLoadingView_Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ParticlesLoadingView_Example;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E7D085E922F5AF8C412415 /* Pods-ParticlesLoadingView_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticlesLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/ParticlesLoadingView.framework/Headers\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ParticlesLoadingView\"",
+				);
+				PODS_FRAMEWORK_BUILD_PATH = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ParticlesLoadingView_Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ParticlesLoadingView_Example;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ParticlesLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ParticlesLoadingView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}

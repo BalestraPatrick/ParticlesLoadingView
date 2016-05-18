@@ -1,0 +1,16 @@
+PODS:
+  - ParticlesLoadingView (0.1.0)
+
+DEPENDENCIES:
+  - ParticlesLoadingView (from `../`)
+
+EXTERNAL SOURCES:
+  ParticlesLoadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ParticlesLoadingView: b758b3305cee56b3fa2c3aa23a97bbe45e71acb4
+
+PODFILE CHECKSUM: 045949d6f37f0559cd4ad92def787e1fe4d41009
+
+COCOAPODS: 1.0.0
