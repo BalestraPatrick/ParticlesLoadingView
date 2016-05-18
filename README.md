@@ -8,10 +8,12 @@
 ![](http://i.giphy.com/3oEjHW9cwpB7ljQGOc.gif)
 
 ## Description
-With `ParticlesLoadingView` you can create your own amazing `SpriteKit` particles animations with the Xcode's built-in [Particle Emitter Editor](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/xcode_guide-particle_emitter/Introduction/Introduction.html) that looks like this.
+With `ParticlesLoadingView` you can create your own amazing `SpriteKit` particles animations with the Xcode's built-in [Particle Emitter Editor](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/xcode_guide-particle_emitter/Introduction/Introduction.html) that looks like the following picture.
+Go ahead and create your own particles animation by doing File ➡️ New File ➡️ iOS Resource ➡️ SpriteKit Particle File.
+
 ![](Resources/ParticlesEmitterEditor.png)
 
-Go ahead and create your own particles animation by doing File ➡️ New File ➡️ iOS Resource ➡️ SpriteKit Particle File.
+
 
 ## Usage
 To see it in action, run the example project, clone the repo, and run `pod install` from the `Example` directory first. The example project shows how to set up `ParticlesLoadingView` in a few different ways. 
