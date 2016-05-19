@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/ParticlesLoadingView.svg?style=flat)](http://cocoapods.org/pods/ParticlesLoadingView)
 [![Platform](https://img.shields.io/cocoapods/p/ParticlesLoadingView.svg?style=flat)](http://cocoapods.org/pods/ParticlesLoadingView)
 
-<p align="center"><img src ="http://i.giphy.com/3oEjHW9cwpB7ljQGOc.gif" width="550px"/></p>
+<p align="center"><img src ="http://i.giphy.com/3oEjHW9cwpB7ljQGOc.gif" width="600px"/></p>
 
 ## Description
 With `ParticlesLoadingView` you can create your own amazing `SpriteKit` particles animations with the Xcode's built-in [Particle Emitter Editor](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/xcode_guide-particle_emitter/Introduction/Introduction.html) that looks like the following picture.
