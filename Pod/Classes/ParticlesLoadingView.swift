@@ -26,6 +26,9 @@ public class ParticlesLoadingView: UIView {
         }
     }
     
+    /// Default value is false so the animation is counter-clockwise. Set this property to true to make the animation go clockwise.
+    public var clockwiseRotation: Bool = false
+    
     /// SKScene subclass that is responsible for the emission of particles.
     private var scene: ParticlesScene!
     

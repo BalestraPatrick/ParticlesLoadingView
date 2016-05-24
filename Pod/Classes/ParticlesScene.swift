@@ -76,7 +76,12 @@ public class ParticlesScene: SKScene {
             let verticalTranslationFactor = 2 / (1 - verticalInsetScaleFactor)
             border.applyTransform(CGAffineTransformMakeScale(horizontalInsetScaleFactor, verticalInsetScaleFactor))
             border.applyTransform(CGAffineTransformMakeTranslation(scene.frame.size.width / horizontalTranslationFactor, scene.frame.size.height / verticalTranslationFactor))
-            let followLine = SKAction.followPath(border.CGPath, asOffset: false, orientToPath: true, duration: duration)
+            var followLine = SKAction.followPath(border.CGPath, asOffset: false, orientToPath: true, duration: duration)
+            if let superview = view?.superview as? ParticlesLoadingView {
+                if superview.clockwiseRotation {
+                    followLine = followLine.reversedAction()
+                }
+            }
             loopAction = SKAction.repeatActionForever(followLine)
         }
     }

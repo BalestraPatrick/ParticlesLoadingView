@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         view.particleEffect = .Laser
         view.duration = 1.5
         view.particlesSize = 15.0
+        view.clockwiseRotation = true
         view.layer.borderColor = UIColor.lightGrayColor().CGColor
         view.layer.borderWidth = 1.0
         view.layer.cornerRadius = 15.0
