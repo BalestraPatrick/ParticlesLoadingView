@@ -13,7 +13,7 @@ s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
-'ParticlesLoadingButton' => ['Pod/Assets/*.png', 'Pod/Assets/*.sks']
+'ParticlesLoadingView' => ['Pod/Assets/*.png', 'Pod/Assets/*.sks']
 }
 
 s.frameworks = 'SpriteKit'
