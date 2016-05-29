@@ -21,9 +21,11 @@ public class EmitterCreator {
     ///
     /// - returns: The emitter node object.
     func createEmitterNode(effect: ParticleEffect) throws -> SKEmitterNode {
-        let bundleName = NSBundle(forClass: self.dynamicType).infoDictionary!["CFBundleName"] as! String
+        let bundle = NSBundle(forClass: self.dynamicType)
+        let bundleName = bundle.infoDictionary!["CFBundleName"] as! String
         let path = NSBundle(forClass: self.dynamicType).pathForResource(effect.rawValue, ofType: "sks", inDirectory: "\(bundleName).bundle")
-        if let path = path, let emitter = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as? SKEmitterNode {
+        if let path = path, let emitter = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as? SKEmitterNode, let texture = UIImage(named: "spark", inBundle: bundle, compatibleWithTraitCollection: nil) {
+            emitter.particleTexture = SKTexture(image: texture)
             return emitter
         } else {
             throw EmitterError.EmitterNodeUnavailable

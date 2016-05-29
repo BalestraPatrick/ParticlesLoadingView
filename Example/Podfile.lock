@@ -1,5 +1,5 @@
 PODS:
-  - ParticlesLoadingView (0.1.0)
+  - ParticlesLoadingView (0.2)
 
 DEPENDENCIES:
   - ParticlesLoadingView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ParticlesLoadingView: b758b3305cee56b3fa2c3aa23a97bbe45e71acb4
+  ParticlesLoadingView: bf9d4b07166ed7d692b1275f7368862da89ee60f
 
 PODFILE CHECKSUM: 045949d6f37f0559cd4ad92def787e1fe4d41009
 

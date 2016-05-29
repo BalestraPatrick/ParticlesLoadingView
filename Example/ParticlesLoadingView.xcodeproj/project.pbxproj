@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5775822FA8BD465BD69310 /* Pods_ParticlesLoadingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B343C7A3ABA308245341FE /* Pods_ParticlesLoadingView_Example.framework */; };
 		AE4CA89A1CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4CA8991CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework */; };
 		AE4CA89B1CEC67D00074E71F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBB69BF1CEC6303001DB4CA /* LaunchScreen.xib */; };
 		AE4CA89C1CEC67D00074E71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBB69C11CEC6303001DB4CA /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE4CA89A1CEC66DA0074E71F /* Pods_ParticlesLoadingView_Example.framework in Frameworks */,
+				7C5775822FA8BD465BD69310 /* Pods_ParticlesLoadingView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

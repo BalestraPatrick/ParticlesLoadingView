@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "ParticlesLoadingView"
-s.version          = "0.1.1"
+s.version          = "0.2"
 s.summary          = "A loading animation made of particles."
 s.description      = "A customizable SpriteKit particles animation on the border of a view."
 s.homepage         = "https://github.com/BalestraPatrick/ParticlesLoadingView"
