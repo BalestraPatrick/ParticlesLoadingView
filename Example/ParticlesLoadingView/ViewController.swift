@@ -16,14 +16,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageView: UIView!
     
     lazy var loadingView: ParticlesLoadingView = {
-        let x = UIScreen.mainScreen().bounds.size.width / 2 - (75 / 2) - 200 // 🙈
-        let y = UIScreen.mainScreen().bounds.size.height / 2 - (75 / 2) // 🙉
+        let x = UIScreen.main().bounds.size.width / 2 - (75 / 2) - 200 // 🙈
+        let y = UIScreen.main().bounds.size.height / 2 - (75 / 2) // 🙉
         let view = ParticlesLoadingView(frame: CGRect(x: x, y: y, width: 75, height: 75))
-        view.particleEffect = .Laser
+        view.particleEffect = .laser
         view.duration = 1.5
         view.particlesSize = 15.0
         view.clockwiseRotation = true
-        view.layer.borderColor = UIColor.lightGrayColor().CGColor
+        view.layer.borderColor = UIColor.lightGray().cgColor
         view.layer.borderWidth = 1.0
         view.layer.cornerRadius = 15.0
         return view
@@ -38,32 +38,32 @@ class ViewController: UIViewController {
         
         // Customize view, choose the Fire effect and start the animation.
         messageView.layer.cornerRadius = 15.0
-        messageView.layer.borderColor = UIColor.lightGrayColor().CGColor
+        messageView.layer.borderColor = UIColor.lightGray().cgColor
         messageView.layer.borderWidth = 1.0
-        messageView.addParticlesAnimation(effect: ParticleEffect.Fire)
+        messageView.addParticlesAnimation(effect: ParticleEffect.fire)
         messageView.startAnimating()
         
         // Use a custom emitter particles file and customize the view.
-        if let emitter = NSKeyedUnarchiver.unarchiveObjectWithFile(NSBundle.mainBundle().pathForResource("Spark", ofType: "sks")!) as? SKEmitterNode {
+        if let emitter = NSKeyedUnarchiver.unarchiveObject(withFile: Bundle.main().pathForResource("Spark", ofType: "sks")!) as? SKEmitterNode {
             circleLoadingView.layer.borderWidth = 1.0
-            circleLoadingView.layer.borderColor = UIColor.lightGrayColor().CGColor
+            circleLoadingView.layer.borderColor = UIColor.lightGray().cgColor
             circleLoadingView.layer.cornerRadius = circleLoadingView.frame.size.width / 2
-            circleLoadingView.addParticlesAnimation(emitter)
+            circleLoadingView.addParticlesAnimation(with: emitter)
             circleLoadingView.startAnimating()
         }
     }
     
-    @IBAction func controlAnimation(sender: UIButton) {
+    @IBAction func controlAnimation(_ sender: UIButton) {
         if circleLoadingView.isEmitting() {
             circleLoadingView.stopAnimating()
             loadingView.stopAnimating()
             messageView.stopAnimating()
-            sender.setTitle("Start Animating", forState: .Normal)
+            sender.setTitle("Start Animating", for: UIControlState())
         } else {
             circleLoadingView.startAnimating()
             loadingView.startAnimating()
             messageView.startAnimating()
-            sender.setTitle("Stop Animating", forState: .Normal)
+            sender.setTitle("Stop Animating", for: UIControlState())
         }
     }
 }
