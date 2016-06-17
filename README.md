@@ -66,6 +66,8 @@ If you think a feature should be included in this project, submit a PR or open a
 
 ## Installation
 
+If you are already using Swift 3.0, please use the [swift3.0](https://github.com/BalestraPatrick/ParticlesLoadingView/tree/swift3.0) branch which I will try to keep up to date with the latest Swift beta. 
+
 `ParticlesLoadingView` is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your `Podfile`:
 
