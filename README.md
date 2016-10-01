@@ -14,7 +14,6 @@ Go ahead and create your own particles animation by doing File ➡️ New File �
 ![](Resources/ParticlesEmitterEditor.png)
 
 
-
 ## Usage
 To see it in action, run the example project, clone the repo, and run `pod install` from the `Example` directory first. The example project shows how to set up `ParticlesLoadingView` in a few different ways. 
 
@@ -66,8 +65,6 @@ If you think a feature should be included in this project, submit a PR or open a
 
 ## Installation
 
-If you are already using Swift 3.0, please use the [swift3.0](https://github.com/BalestraPatrick/ParticlesLoadingView/tree/swift3.0) branch which I will try to keep up to date with the latest Swift beta. 
-
 `ParticlesLoadingView` is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your `Podfile`:
 
@@ -81,7 +78,7 @@ You can also use [Carthage](https://github.com/Carthage/Carthage) if you prefer.
 github "BalestraPatrick/ParticlesLoadingView"
 ```
 ## Requirements
-iOS 9.0 and Swift 2.2 are required.
+iOS 9.0 and Swift 3 are required. If you are using Swift 2.3, please use the [swift2.3 branch](https://github.com/BalestraPatrick/ParticlesLoadingView/tree/swift2.3).
 
 ## Author
 
