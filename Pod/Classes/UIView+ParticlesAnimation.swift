@@ -14,17 +14,17 @@ public extension UIView {
     /// Add a particles animation with a SKEmitterNode.
     ///
     /// - parameter emitter: Emitter node object.
-    public func addParticlesAnimation(emitter: SKEmitterNode? = nil, effect: ParticleEffect? = nil) {
+    public func addParticlesAnimation(with emitter: SKEmitterNode? = nil, effect: ParticleEffect? = nil) {
         var spriteKitView = SKView()
         spriteKitView = SKView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-        spriteKitView.backgroundColor = UIColor.clearColor()
+        spriteKitView.backgroundColor = UIColor.clear
         
         var scene: ParticlesScene
         if let emitter = emitter {
             scene = ParticlesScene(size: frame.size, emitterNode: emitter)
         } else if let effect = effect {
             do {
-                let emitter = try EmitterCreator().createEmitterNode(effect)
+                let emitter = try EmitterCreator().createEmitterNode(with: effect)
                 scene = ParticlesScene(size: frame.size, emitterNode: emitter)
             } catch {
                 fatalError("The default ParticleEffect could not be loaded.")

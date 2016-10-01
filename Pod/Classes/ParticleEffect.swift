@@ -9,8 +9,8 @@
 import Foundation
 
 public enum ParticleEffect: String {
-    case Laser = "Laser"
-    case Spark = "Spark"
-    case Bokeh = "Bokeh"
-    case Fire = "Fire"
+    case laser = "Laser"
+    case spark = "Spark"
+    case bokeh = "Bokeh"
+    case fire = "Fire"
 }

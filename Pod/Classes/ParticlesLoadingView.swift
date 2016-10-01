@@ -36,11 +36,11 @@ public class ParticlesLoadingView: UIView {
     private let emitterCreator = EmitterCreator()
     
     /// The particle effect used to emit particles.
-    public var particleEffect = ParticleEffect.Laser {
+    public var particleEffect = ParticleEffect.laser {
         didSet {
             if let _ = scene {
                 do {
-                    let emitter = try emitterCreator.createEmitterNode(particleEffect)
+                    let emitter = try emitterCreator.createEmitterNode(with: particleEffect)
                     scene.setEmitterNode(emitter)
                 } catch {
                     fatalError("Could not find the particles file")
@@ -59,20 +59,20 @@ public class ParticlesLoadingView: UIView {
     override public init(frame: CGRect) {
         super.init(frame: frame)
         spriteKitView = SKView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-        spriteKitView.backgroundColor = UIColor.clearColor()
+        spriteKitView.backgroundColor = UIColor.clear
         setUp()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         spriteKitView = SKView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-        spriteKitView.backgroundColor = UIColor.clearColor()
+        spriteKitView.backgroundColor = UIColor.clear
         setUp()
     }
     
     func setUp() {
         do {
-            let emitter = try emitterCreator.createEmitterNode(particleEffect)
+            let emitter = try emitterCreator.createEmitterNode(with: particleEffect)
             scene = ParticlesScene(size: frame.size, emitterNode: emitter)
             spriteKitView.presentScene(scene)
             addSubview(spriteKitView)
@@ -97,7 +97,7 @@ public class ParticlesLoadingView: UIView {
     }
     
     // UIView automatically invoke this function when a view adds me as a subview. It is used to get the border path of the view.
-    public override func willMoveToSuperview(newSuperview: UIView?) {
+    public override func willMove(toSuperview newSuperview: UIView?) {
         scene.setAnimationPath()
     }
     
