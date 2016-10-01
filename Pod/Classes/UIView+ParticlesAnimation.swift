@@ -17,7 +17,7 @@ public extension UIView {
     public func addParticlesAnimation(with emitter: SKEmitterNode? = nil, effect: ParticleEffect? = nil) {
         var spriteKitView = SKView()
         spriteKitView = SKView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-        spriteKitView.backgroundColor = UIColor.clear()
+        spriteKitView.backgroundColor = UIColor.clear
         
         var scene: ParticlesScene
         if let emitter = emitter {

@@ -11,7 +11,7 @@ import SpriteKit
 
 public class EmitterCreator {
     
-    public enum EmitterError: ErrorProtocol {
+    public enum EmitterError: Error {
         case emitterNodeUnavailable
     }
     
@@ -21,9 +21,9 @@ public class EmitterCreator {
     ///
     /// - returns: The emitter node object.
     func createEmitterNode(with effect: ParticleEffect) throws -> SKEmitterNode {
-        let bundle = Bundle(for: self.dynamicType)
+        let bundle = Bundle(for: type(of: self))
         let bundleName = bundle.infoDictionary!["CFBundleName"] as! String
-        let path = Bundle(for: self.dynamicType).pathForResource(effect.rawValue, ofType: "sks", inDirectory: "\(bundleName).bundle")
+        let path = Bundle(for: type(of: self)).path(forResource: effect.rawValue, ofType: "sks", inDirectory: "\(bundleName).bundle")
         if let path = path, let emitter = NSKeyedUnarchiver.unarchiveObject(withFile: path) as? SKEmitterNode, let texture = UIImage(named: "\(bundleName).bundle/spark", in: bundle, compatibleWith: nil) {
             emitter.particleTexture = SKTexture(image: texture)
             return emitter

@@ -27,7 +27,7 @@ public class ParticlesScene: SKScene {
         self.emitterNode = emitterNode
         self.emitterNode.position = CGPoint(x: 10, y: 0)
         super.init(size: size)
-        backgroundColor = UIColor.clear()
+        backgroundColor = UIColor.clear
     }
     
     required public init?(coder aDecoder: NSCoder) {

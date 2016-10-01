@@ -59,14 +59,14 @@ public class ParticlesLoadingView: UIView {
     override public init(frame: CGRect) {
         super.init(frame: frame)
         spriteKitView = SKView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-        spriteKitView.backgroundColor = UIColor.clear()
+        spriteKitView.backgroundColor = UIColor.clear
         setUp()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         spriteKitView = SKView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-        spriteKitView.backgroundColor = UIColor.clear()
+        spriteKitView.backgroundColor = UIColor.clear
         setUp()
     }
     
