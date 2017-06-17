@@ -78,7 +78,11 @@ You can also use [Carthage](https://github.com/Carthage/Carthage) if you prefer.
 github "BalestraPatrick/ParticlesLoadingView"
 ```
 ## Requirements
-iOS 9.0 and Swift 3 are required. If you are using Swift 2.3, please use the [swift2.3 branch](https://github.com/BalestraPatrick/ParticlesLoadingView/tree/swift2.3).
+iOS 9.0 and Swift 3 are required. 
+
+If you are using Swift 4, please use the [swift4 branch](https://github.com/BalestraPatrick/ParticlesLoadingView/tree/swift4).
+
+If you are using Swift 2.3, please use the [swift2.3 branch](https://github.com/BalestraPatrick/ParticlesLoadingView/tree/swift2.3).
 
 ## Author
 
