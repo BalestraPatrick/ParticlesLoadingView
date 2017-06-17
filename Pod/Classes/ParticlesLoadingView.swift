@@ -82,17 +82,17 @@ public class ParticlesLoadingView: UIView {
     }
     
     /// Start the particles emission and the animation around the border of the view.
-    public override func startAnimating() {
+    @objc public override func startAnimating() {
         scene.startAnimating()
     }
     
     /// Stop the particles emission.
-    public override func stopAnimating() {
+    @objc public override func stopAnimating() {
         scene.stopAnimating()
     }
     
     /// Returns true if the view is emmitting particles, otherwise false.
-    public override func isEmitting() -> Bool {
+    @objc public override func isEmitting() -> Bool {
         return scene.isEmitting()
     }
     

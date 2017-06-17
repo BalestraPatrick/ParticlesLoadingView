@@ -42,7 +42,7 @@ public extension UIView {
     }
     
     /// Start animating the emitter node.
-    public func startAnimating() {
+    @objc public func startAnimating() {
         for case let spriteKitView as SKView in subviews {
             if let scene = spriteKitView.scene, let particlesScene = scene as? ParticlesScene {
                 particlesScene.startAnimating()
@@ -51,7 +51,7 @@ public extension UIView {
     }
     
     /// Stop animating the emitter node.
-    public func stopAnimating() {
+    @objc public func stopAnimating() {
         for case let spriteKitView as SKView in subviews {
             if let scene = spriteKitView.scene, let particlesScene = scene as? ParticlesScene {
                 particlesScene.stopAnimating()
@@ -60,7 +60,7 @@ public extension UIView {
     }
     
     /// Returns true if the animation is ongoing, otherwise false.
-    public func isEmitting() -> Bool {
+    @objc public func isEmitting() -> Bool {
         for case let spriteKitView as SKView in subviews {
             if let scene = spriteKitView.scene, let particlesScene = scene as? ParticlesScene {
                 return particlesScene.isEmitting()
